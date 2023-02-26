@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+
+    <!-- Meta section -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+
+    <!--Web app links section-->
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" type="text/css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="app.css" type="text/css"/>
+
+    <title>Task Menegment</title>
+</head>
+<body>
+   <nav class="navbar navbar-expand-md navbar-light bg-info">
+    <div class="container-fluid">
+        <h1 class="navbar-brand text-white font-weight-bold">Task Menegment</h1>
+       
+    </div>
+   </nav>
+   <div class="container-fluid padding">
+    <hr class="my-5">
+   </div>
+   <div class="container-fluid padding ">
+    <div class="row  padding">
+        <div id="work-sectinon" class="col-md-4 y-20">
+            <h3 class="text-light text-center">work</h3>
+            <input type="text" placeholder="work task" class="form-text w-75"/>
+            <button type="button" class="btn bg-info text-light font-weight-bold "><i class="fa-solid fa-plus"></i></button>
+
+            <ul id="g-1" class="list-group"></ul>
+        </div>
+        <div id="home-sectinon" class="col-md-4  ">
+            <h3 class="text-light text-center">home</h3>
+            <input type="text" placeholder="home task" class="form-text w-75"/>
+            <button type="button" class="btn bg-info text-light font-weight-bold"><i class="fa-solid fa-plus"></i></button>
+
+            <ul id="g-2" class="list-group"></ul>
+        </div>
+        <div id="hobby-sectinon" class="col-md-4">
+            <h3 class="text-light text-center">Hobby</h3>
+            <input type="text" placeholder="hobby task" class="form-text w-75"/>
+            <button type="button" class="btn bg-info text-light font-weight-bold"><i class="fa-solid fa-plus"></i></button>
+
+            <ul id="g-3" class="list-group"></ul>
+        </div>
+    </div>
+    <hr class="my-4">
+   </div>
+   
+    <script src="./JSCode/app.js" defer=""></script>
+    <script src="./JSCode/task.js" defer=""></script>
+</body>
+</html>
